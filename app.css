@@ -11,7 +11,7 @@ body {
     height: auto;
     width: auto;
     background-color: hsl(216, 50%, 16%);
-    margin-top: 125px;
+    margin-top: 60px;
     padding: 25px 25px 5px 25px;
     border-radius: 10px;
     box-shadow: 0.5em 0.5em 0.8em 0.8em;
@@ -129,4 +129,10 @@ hr {
 
 .attribution {
     margin-top: 20px;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+    }
 }
